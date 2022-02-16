@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "ESNEXT",
+        "module": "esnext",
+        "strict": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "declaration": true,
+        "baseUrl": "./src", 
+        "declarationDir": "./types",
+        "outDir": "dist",
+    },
+    "include": ["src"]
+}
